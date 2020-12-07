@@ -2,6 +2,8 @@
 
 import React from 'react'
 import logo from './logo.svg'
+import './POPOSSpace.css';
+
 
 function POPOSSpace(props) { // Add props here!
     const { name, image, address } = props

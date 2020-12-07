@@ -3,12 +3,14 @@ import logo from './logo.svg';
 import './App.css';
 import Title from './Title.js';
 import POPOSList from './POPOSList.js';
+import Footer from './Footer.js';
 
 function App() {
   return (
     <div className="App">
       <Title />
       <POPOSList />
+      <Footer />
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
