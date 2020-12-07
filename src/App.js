@@ -2,12 +2,14 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Title from './Title.js';
+import POPOSList from './POPOSList.js';
 
 function App() {
   return (
     <div className="App">
       <Title />
-      <header className="App-header">
+      <POPOSList />
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -20,7 +22,7 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
     </div>
   );
 }
